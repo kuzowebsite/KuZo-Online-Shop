@@ -90,7 +90,6 @@ header{
 .cart.active{
     right: 0;
     transition: .5s;
-    background-color: #2d0157ef;
 }
 .cart-title{
     text-align: center;
@@ -260,20 +259,4 @@ header{
     .cart{
         width: 280px;
     }
-}
-
-
-body {
-    transition: background-color 0.5s ease;
-  }
-  
-  .night-mode {
-    background-color: #222;
-    color: #fff;
-  }
-
-.Dark{
-    background-image: url(/assets/img/dark.webp);
-    height: 20px;
-    width: 30px;
 }

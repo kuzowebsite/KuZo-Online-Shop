@@ -2,12 +2,6 @@
 const cartIcon = document.querySelector("#cart-icon");
 const cart = document.querySelector(".cart");
 const closeCart = document.querySelector("#cart-close");
-const darkButton = document.querySelector('button');
-const body = document.querySelector('body');
-
-darkButton.addEventListener('click', function() {
-  body.classList.toggle('night-mode');
-});
 
 cartIcon.addEventListener("click", () => {
   cart.classList.add("active");
@@ -161,4 +155,3 @@ function CartBoxComponent(title, price, imgSrc) {
         <i class='bx bxs-trash-alt cart-remove'></i>
     </div>`;
 }
-
